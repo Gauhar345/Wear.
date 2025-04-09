@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wear. - Fashion Legacy</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <h3>Wear.</h3>
+        </div>
+
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav class="nav-list">
+            <a href="index.html" class="active">Home</a>
+            <a href="wardrobe.html">Wardrobe</a>
+            <a href="Accessories.html">Accessories</a>
+            <a href="About.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="#" class="cart-link">
+                <i class="fa-solid fa-cart-shopping cart-icon"></i>
+                <span class="cart-badge">0</span>
+            </a>
+        </nav>
+
+        <label for="nav-toggle" class="hamburger"></label>
+        <label for="nav-toggle" class="nav-overlay"></label>
+    </header>
+
+    <div class="cart">
+        <h2 class="cart-title">Your cart</h2>
+        <div class="cart-content">
+
+           <div id="empty-msg">Your cart is empty</div>
+            <!-- Cart items will be added here dynamically -->
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">SAR 0.00</div>
+        </div>
+        <button class="btn-buy">Buy Now</button>
+        <i class="fa-solid fa-xmark" id="cart-close"></i>
+    </div>
+
+
+    <section id="landingpage">
+        <div class="sideline"></div>
+        <div class="hero-content">
+            <h1>Every Man Needs to Wear:<br>Legacy</h1>
+            <p>Crafting timeless elegance for the modern gentleman. Redefining style through heritage and innovation.
+            </p>
+            <p><strong>get 20% off on first <a href="">Signup</a></strong>
+            </p>
+            <button class="btnlanding">Show Now →</button>
+        </div>
+    </section>
+
+    <section id="winter-display">
+        <div class="collection-header">
+            <h1>Winter Collection</h1>
+            <p class="muted">Top Trending</p>
+        </div>
+
+        <section class="clothes-grid-container">
+            <div class="clothes-grid">
+                <!-- Repeat this card block for each product -->
+                <div class="clothes-card"data-id="unique-product-id-1">
+                    <div class="card-image">
+                        <img src="product3-v1-s3.webp" alt="Blue Jacket">
+                        <button class="btn-cart">Add to Cart</button>
+                    </div>
+                    <div class="card-content">
+                        <h4 class="product-title">Sweaters Collection</h4>
+                        <div class="price-wrapper">
+                            <span class="price">SAR 75.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of card block -->
+                <div class="clothes-card" data-id="unique-product-id-2">
+                    <div class="card-image">
+                        <img src="product6-v1-s1.jpg" alt="Blue Jacket" />
+                        <button class="btn-cart">Add to Cart</button>
+                    </div>
+                    <div class="card-content">
+                        <h4 class="product-title">Beigh Sweater Long Sleeves With side pockets</h4>
+                        <div class="price-wrapper">
+                            <span class="price">SAR 24.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clothes-card" data-id="unique-product-id-3">
+                    <div class="card-image">
+                        <img src="product5-v1-s2.webp" alt="Blue Jacket" />
+                        <button class="btn-cart">Add to Cart</button>
+                    </div>
+                    <div class="card-content">
+                        <h4 class="product-title">Aesthetic Sweater</h4>
+                        <div class="price-wrapper">
+                            <span class="price">SAR 125.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clothes-card"data-id="unique-product-id-4">
+                    <div class="card-image">
+                        <img src="product10-v1-s1.jpg" alt="Blue Jacket" />
+                        <button class="btn-cart">Add to Cart</button>
+                    </div>
+                    <div class="card-content">
+                        <h4 class="product-title">Royal Blue Casual Wear</h4>
+                        <div class="price-wrapper">
+                            <span class="price">SAR 45.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clothes-card" data-id="unique-product-id-5">
+                    <div class="card-image">
+                        <img src="product9-v1-s1.jpg" alt="Blue Jacket" />
+                        <button class="btn-cart">Add to Cart</button>
+                    </div>
+                    <div class="card-content">
+                        <h4 class="product-title">Black Sports Sweater </h4>
+                        <div class="price-wrapper">
+                            <span class="price">SAR 67.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clothes-card" data-id="unique-product-id-6">
+                    <div class="card-image">
+                        <img src="product5-v2-s1.webp" alt="Blue Jacket" />
+                        <button class="btn-cart">Add to Cart</button>
+                    </div>
+                    <div class="card-content">
+                        <h4 class="product-title">Black Sweater Aesthetic</h4>
+                        <div class="price-wrapper">
+                            <span class="price">SAR 95.00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="clothes-card" data-id="unique-product-id-7">
+                    <div class="card-image">
+                        <img src="product3-v1-s2.webp" alt="Blue Jacket" />
+                        <button class="btn-cart">Add to Cart</button>
+                    </div>
+                    <div class="card-content">
+                        <h4 class="product-title">100% Cotton Soft Sweaters </h4>
+                        <div class="price-wrapper">
+                            <span class="price">SAR 50.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Paste your other 7 product cards here -->
+
+
+                <div class="clothes-card" data-id="unique-product-id-7">
+                    <div class="card-image">
+                        <img src="product5-v1-s2.webp" alt="Blue Jacket" />
+                        <button class="btn-cart">Add to Cart</button>
+                    </div>
+                    <div class="card-content">
+                        <h4 class="product-title">Aesthetic Sweater</h4>
+                        <div class="price-wrapper">
+                            <span class="price">SAR 125.00</span>
+                        </div>
+                    </div>
+                </div>
+
+               
+
+        </section>
+
+    </section>
+    <div class="logos">
+        <div class="logos-container">
+            <!-- Original Set -->
+            <div class="logo-slide">
+                <div class="logo-item hideonmobile"><img src="levis-logo-svgrepo-com.svg" alt="Levi's"></div>
+                <div class="logo-item"><img src="under-armour-logo.svg" alt="Under Armour"></div>
+                <div class="logo-item hideonmobile"><img src="tommy-hilfiger-3.svg" alt="Tommy Hilfiger"></div>
+                <div class="logo-item hideonmobile"><img src="adidas-4.svg" alt="Adidas"></div>
+                <div class="logo-item"><img src="boss-hugo-boss-1.svg" alt="Hugo Boss"></div>
+                <div class="logo-item"><img src="nike-11.svg" alt="Nike"></div>
+                <div class="logo-item"><img src="puma.svg" alt="Puma"></div>
+                <div class="logo-item"><img src="zara.svg" alt="Zara"></div>
+                <div class="logo-item hideonmobile"><img src="calvin-klein-1.svg" alt="Calvin Klein"></div>
+                <div class="logo-item"><img src="chanel-2.svg" alt="Chanel"></div>
+            </div>
+
+            <!-- Duplicated Set -->
+            <div class="logo-slide">
+                <div class="logo-item hideonmobile"><img src="levis-logo-svgrepo-com.svg" alt="Levi's"></div>
+                <div class="logo-item"><img src="under-armour-logo.svg" alt="Under Armour"></div>
+                <div class="logo-item hideonmobile"><img src="tommy-hilfiger-3.svg" alt="Tommy Hilfiger"></div>
+                <div class="logo-item hideonmobile"><img src="adidas-4.svg" alt="Adidas"></div>
+                <div class="logo-item"><img src="boss-hugo-boss-1.svg" alt="Hugo Boss"></div>
+                <div class="logo-item"><img src="nike-11.svg" alt="Nike"></div>
+                <div class="logo-item"><img src="puma.svg" alt="Puma"></div>
+                <div class="logo-item"><img src="zara.svg" alt="Zara"></div>
+                <div class="logo-item hideonmobile"><img src="calvin-klein-1.svg" alt="Calvin Klein"></div>
+                <div class="logo-item"><img src="chanel-2.svg" alt="Chanel"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Wear</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="wardrobe.html">Shop</a></li>
+                        <li><a href="Accessories.html">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="footer-col">
+                    <div class="footer-login">
+                        <h4>More Info</h4>
+
+                        <div class="footer-col-par">
+                            
+                            <p>Signup to get 20% off on your First 5 orders!</p>
+                            <div class="footer-col-signup-btn">
+                                <button>Signup</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="par">
+                <p>This website is designed by Syed Gauhar Ali </p>
+                <p>CopyRight&copy; 2025 1446</p>
+            </div>
+
+
+    </footer>
+    <button id="arrow-up">
+        <i class="fas fa-arrow-up"></i>
+      </button> 
+
+    <script src="script.js"></script>
+</body>
+  
+</html>
